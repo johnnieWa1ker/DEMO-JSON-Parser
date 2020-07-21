@@ -21,7 +21,7 @@ extension ViperPresenter {
             
             var attributes = EKAttributes.topFloat
             attributes.hapticFeedbackType = .success
-            attributes.entryBackground = .color(color: EKColor(AppTheme.orange))
+            attributes.entryBackground = .color(color: EKColor(AppTheme.gray))
             attributes.popBehavior = .animated(animation: .init(translate: .init(duration: 0.3), scale: .init(from: 1, to: 0.7, duration: 0.7)))
             attributes.shadow = .active(with: .init(color: EKColor(AppTheme.black), opacity: 0.3, radius: 3))
             attributes.statusBar = .currentStatusBar

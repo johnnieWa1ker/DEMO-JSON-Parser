@@ -13,7 +13,9 @@ protocol MainViewInput: ViperViewInput {
     func updateSections(_ sections: [TableSectionModel])
 }
 
-protocol MainViewOutput: ViperViewOutput { }
+protocol MainViewOutput: ViperViewOutput {
+    func selectedModule(_ index: Int)
+}
 
 class MainViewController: ViperViewController, MainViewInput {
 
@@ -122,4 +124,8 @@ extension MainViewController: UITableViewDataSource {
 // MARK: - UITableViewDelegate
 extension MainViewController: UITableViewDelegate {
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        print("[DEBUG] \(String(describing: indexPath.row))")
+        self.output?.selectedModule(indexPath.row)
+    }
 }

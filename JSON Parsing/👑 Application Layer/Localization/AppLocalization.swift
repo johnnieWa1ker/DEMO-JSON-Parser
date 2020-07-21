@@ -63,5 +63,9 @@ enum AppLocalization {
     
     enum Disconnect: String, Localizable {
         case title                      = "DISCONNECT_TITLE"
-    }   
+    }
+    
+    enum Main: String, Localizable {
+        case notification               = "MAIN_NOTIFICATION"
+    }
 }

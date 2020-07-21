@@ -40,6 +40,10 @@ class MainPresenter: ViperPresenter, MainPresenterInput, MainViewOutput {
     }
     
     // MARK: - MainPresenterInput
+    func selectedModule(_ index: Int) {
+        let message = AppLocalization.Main.notification.loc + " " + String(index)
+        self.showNotice(message, style: .info, duration: .short)
+    }
     
     // MARK: - MainViewOutput
     override func viewIsReady(_ controller: UIViewController) {

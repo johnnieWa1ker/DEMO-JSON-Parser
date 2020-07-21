@@ -7,46 +7,49 @@
 */
 
 // MARK: - ErrorMessages
-"EM_TOKEN_NOT_FOUND"                = "Token not found";
-"EM_BAD_REQUEST"                    = "Bad request";
-"EM_UNAUTHORIZED"                   = "Unauthorized";
-"EM_INTERNAL_SERVER"                = "Internal server error";
-"EM_PUSH_SUBSCRIBE"                 = "Push subscribe failed";
-"EM_PUSH_UNSUBSCRIBE"               = "Push unsubscribe failed";
-"EM_FIREBASE_AUTH"                  = "Firebase auth error";
-"EM_NO_INTERNET"                    = "No internet connection";
-"EM_PROFILE_NOT_FILLED"             = "Profile not completed";
-"EM_USER_BLOCKED"                   = "User is locked";
-"EM_PHONE_NUMBER"                   = "Invalid phone number";
-"EM_SMS_CODE"                       = "Invalid SMS code";
-"EM_TO_SAVE_DATA"                   = "Failed to save data";
-"EM_POP_INV_EMAIL"                  = "The data entered in the email field does not look like a real email. Please use real data - they will be required later for account verification! Thank!";
-"EM_EMPTY_RESULT"                   = "The response from the server was empty or incorrectly decoded";
-"EM_LOW_IOS_VERSION"                = "Your iOS version is out of date, try updating your device and trying again";
+"EM_TOKEN_NOT_FOUND"                = "Токен не найден";
+"EM_BAD_REQUEST"                    = "Неверный запрос";
+"EM_UNAUTHORIZED"                   = "Не авторизован";
+"EM_INTERNAL_SERVER"                = "Внутренняя ошибка сервера";
+"EM_PUSH_SUBSCRIBE"                 = "Ошибка принудительной подписки";
+"EM_PUSH_UNSUBSCRIBE"               = "Ошибка принудительной отмены подписки";
+"EM_FIREBASE_AUTH"                  = "Ошибка аутентификации Firebase";
+"EM_NO_INTERNET"                    = "Нет подключения к интернету";
+"EM_PROFILE_NOT_FILLED"             = "Профиль не заполнен";
+"EM_USER_BLOCKED"                   = "Пользователь заблокирован";
+"EM_PHONE_NUMBER"                   = "Некорректный номер телефона";
+"EM_SMS_CODE"                       = "Некорректный SMS код";
+"EM_TO_SAVE_DATA"                   = "Не удалось сохранить данные";
+"EM_POP_INV_EMAIL"                  = "Введенные данные в поле email не похожи на реальный email. Пожалуйста используйте реальные данные - они потребуются далее для верификации аккаунта! Спасибо!";
+"EM_EMPTY_RESULT"                   = "Ответ от сервера был с пустым значением, или неправильно декодирован";
+"EM_LOW_IOS_VERSION"                = "Ваша версия iOS устарела, попробуйте обновить устройство и попробовать еще раз";
 
 // MARK: - General
 "OK"                                = "OK";
-"SAVE"                              = "Save";
-"CANCEL"                            = "Cancel";
-"CLOSE"                             = "Close";
-"ATTENSION"                         = "Attention!";
-"UNKNOWN"                           = "Unknown";
-"LOADING"                           = "Loading";
-"REFRESH"                           = "Refresh";
-"TRY_AGAIN"                         = "Try Again";
-"YES"                               = "Yes";
-"NO"                                = "No";
-"ERROR"                             = "Error";
-"WARNING"                           = "Warning";
-"CONTINUE"                          = "Continue";
-"SEARCH"                            = "Search";
-"NEXT"                              = "Next";
-"CONFIRM"                           = "Confirm";
-"INFO"                              = "Information";
+"SAVE"                              = "Сохранить";
+"CANCEL"                            = "Отмена";
+"CLOSE"                             = "Закрыть";
+"ATTENSION"                         = "Внимание!";
+"UNKNOWN"                           = "Неизвестно";
+"LOADING"                           = "Загрузка";
+"REFRESH"                           = "Обновить";
+"TRY_AGAIN"                         = "Попробовать еще";
+"YES"                               = "Да";
+"NO"                                = "Нет";
+"ERROR"                             = "Ошибка";
+"WARNING"                           = "Предупреждение";
+"CONTINUE"                          = "Продолжить";
+"SEARCH"                            = "Поиск";
+"NEXT"                              = "Далее";
+"CONFIRM"                           = "Подтвердить";
+"INFO"                              = "Информация";
 
 // MARK: - Theme
-"APP_THEME_DARK"                    = "Dark";
+"APP_THEME_DARK"                    = "Темная";
 
 // MARK: - Language
-"APP_LANG_ENG"                      = "English";
-"APP_LANG_RUS"                      = "Russian";
+"APP_LANG_ENG"                      = "Английский";
+"APP_LANG_RUS"                      = "Русский";
+
+// MARK: - Main
+"MAIN_NOTIFICATION"                 = "Вы нажали на модуль №";
