@@ -9,7 +9,7 @@
 import GKViper
 
 protocol InitialRouterInput: ViperRouterInput {
-    func presentMainViewController()
+    func presentMain()
 }
 
 class InitialRouter: ViperRouter, InitialRouterInput {
@@ -23,13 +23,17 @@ class InitialRouter: ViperRouter, InitialRouterInput {
     }
     
     // MARK: - InitialRouterInput
-    func presentMainViewController() {
-//        let vc = MainAssembly.create()
-//        _ = MainAssembly.configure(with: vc)
-//
-//        vc.modalPresentationStyle = .fullScreen
-//
-//        self.present(vc, animated: false)
+    
+    func presentMain() {
+        DispatchQueue.main.async { [weak self] in
+            guard let strongSelf = self else { return }
+            
+            let vc = MainAssembly.create()
+            _ = MainAssembly.configure(with: vc)
+            vc.modalPresentationStyle = .fullScreen
+            
+            strongSelf.present(vc, animated: true)
+        }
     }
     
     // MARK: - Module functions

@@ -1,26 +1,26 @@
 //
-//  InitialAssembly.swift
+//  MainAssembly.swift
 //  JSON Parsing
 //
-//  Created by Johnnie Walker on 20.07.2020.
+//  Created by Johnnie Walker on 21.07.2020.
 //  Copyright © 2020 JW. All rights reserved.
 //
 
 import GKViper
 
-enum InitialAssembly {
+enum MainAssembly {
     
     // Create and return controller
-    static func create() -> InitialViewController {
-        let vc = InitialViewController(nibName: InitialViewController.identifier, bundle: nil)
+    static func create() -> MainViewController {
+        let vc = MainViewController(nibName: MainViewController.identifier, bundle: nil)
         return vc
     }
     
     // Create and link modules with controller, return presenter input
-    static func configure(with reference: InitialViewController) -> InitialPresenterInput {
-        let presenter = InitialPresenter()
+    static func configure(with reference: MainViewController) -> MainPresenterInput {
+        let presenter = MainPresenter()
         
-        let router = InitialRouter()
+        let router = MainRouter()
         router._mainController = reference
         
         presenter._view = reference
@@ -30,4 +30,5 @@ enum InitialAssembly {
         
         return presenter
     }
+    
 }

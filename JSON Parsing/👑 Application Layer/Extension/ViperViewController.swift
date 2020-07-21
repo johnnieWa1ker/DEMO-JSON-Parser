@@ -10,6 +10,7 @@ import GKViper
 
 extension ViperViewController {
     
+    // Overlays a new view on the current screen that prevents interaction with the current content until the Internet is available.
     func showDisconnect() {
         for view in self.view.subviews {
             if view.isKind(of: DisconnectView.self) {
@@ -27,6 +28,7 @@ extension ViperViewController {
         view.delegate = self
     }
     
+    // Remove the view that reported internet problems.
     func hideDisconnect() {
         for view in self.view.subviews {
             if view.isKind(of: DisconnectView.self) {

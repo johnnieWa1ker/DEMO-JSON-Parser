@@ -16,7 +16,7 @@ enum AppConfiguration {
     }
     
     static var serverUrl: String {
-        let url = ""
+        let url = "https://pryaniky.com/static/json/sample.json"
         if url.isEmpty {
             fatalError("set your server url in AppConfiguration")
         }
@@ -24,8 +24,7 @@ enum AppConfiguration {
     }
     
     static var serverApi: String {
-        let url = AppConfiguration.serverUrl + "/api"
+        let url = AppConfiguration.serverUrl + ""
         return url
     }
-    
 }

@@ -17,16 +17,16 @@ extension StyleWrapper where Element: UILabel {
     // MARK: Title 2
     
     /// SFPRO 24 | Regular
-    static func sfTitle2Regular24(_ color: UIColor, _ textAlignment: NSTextAlignment?) -> StyleWrapper {
-        let wrap = StyleWrapper.wrap { label in
-            label.textAlignment = textAlignment ?? .left
-            label.numberOfLines = 0
-            label.lineBreakMode = .byTruncatingMiddle
-            label.font = SFPRO.regular.font(size: 24)
-            label.textColor = color
-        }
-        return wrap
-    }
+//    static func sfTitle2Regular24(_ color: UIColor, _ textAlignment: NSTextAlignment?) -> StyleWrapper {
+//        let wrap = StyleWrapper.wrap { label in
+//            label.textAlignment = textAlignment ?? .left
+//            label.numberOfLines = 0
+//            label.lineBreakMode = .byTruncatingMiddle
+//            label.font = SFPRO.regular.font(size: 24)
+//            label.textColor = color
+//        }
+//        return wrap
+//    }
     
     /// SFPRO 24 | Bold
     static func sfTitle2Bold24(_ color: UIColor, _ textAlignment: NSTextAlignment?) -> StyleWrapper {
@@ -43,28 +43,28 @@ extension StyleWrapper where Element: UILabel {
     // MARK: Title 3
     
     /// SFPRO 20 | Semibold
-    static func sfTitle3Semibold20(_ color: UIColor, _ textAlignment: NSTextAlignment?) -> StyleWrapper {
-        let wrap = StyleWrapper.wrap { label in
-            label.textAlignment = textAlignment ?? .left
-            label.numberOfLines = 0
-            label.lineBreakMode = .byTruncatingMiddle
-            label.font = SFPRO.semibold.font(size: 20)
-            label.textColor = color
-        }
-        return wrap
-    }
+//    static func sfTitle3Semibold20(_ color: UIColor, _ textAlignment: NSTextAlignment?) -> StyleWrapper {
+//        let wrap = StyleWrapper.wrap { label in
+//            label.textAlignment = textAlignment ?? .left
+//            label.numberOfLines = 0
+//            label.lineBreakMode = .byTruncatingMiddle
+//            label.font = SFPRO.semibold.font(size: 20)
+//            label.textColor = color
+//        }
+//        return wrap
+//    }
     
     /// SFPRO 20 | Regular
-    static func sfTitle3Regular20(_ color: UIColor, _ textAlignment: NSTextAlignment?) -> StyleWrapper {
-        let wrap = StyleWrapper.wrap { label in
-            label.textAlignment = textAlignment ?? .left
-            label.numberOfLines = 0
-            label.lineBreakMode = .byTruncatingMiddle
-            label.font = SFPRO.regular.font(size: 20)
-            label.textColor = color
-        }
-        return wrap
-    }
+//    static func sfTitle3Regular20(_ color: UIColor, _ textAlignment: NSTextAlignment?) -> StyleWrapper {
+//        let wrap = StyleWrapper.wrap { label in
+//            label.textAlignment = textAlignment ?? .left
+//            label.numberOfLines = 0
+//            label.lineBreakMode = .byTruncatingMiddle
+//            label.font = SFPRO.regular.font(size: 20)
+//            label.textColor = color
+//        }
+//        return wrap
+//    }
     
     // MARK: - Headline
     
@@ -81,80 +81,80 @@ extension StyleWrapper where Element: UILabel {
     }
     
     /// SFPRO 18 | Semibold
-    static func sfHeadlineSemibold18(_ color: UIColor, _ textAlignment: NSTextAlignment?) -> StyleWrapper {
-        let wrap = StyleWrapper.wrap { label in
-            label.textAlignment = textAlignment ?? .left
-            label.numberOfLines = 0
-            label.lineBreakMode = .byTruncatingMiddle
-            label.font = SFPRO.semibold.font(size: 18)
-            label.textColor = color
-        }
-        return wrap
-    }
+//    static func sfHeadlineSemibold18(_ color: UIColor, _ textAlignment: NSTextAlignment?) -> StyleWrapper {
+//        let wrap = StyleWrapper.wrap { label in
+//            label.textAlignment = textAlignment ?? .left
+//            label.numberOfLines = 0
+//            label.lineBreakMode = .byTruncatingMiddle
+//            label.font = SFPRO.semibold.font(size: 18)
+//            label.textColor = color
+//        }
+//        return wrap
+//    }
     
     /// SFPRO 16 | Regular
-    static func sfHeadlineRegular16(_ color: UIColor, _ textAlignment: NSTextAlignment?) -> StyleWrapper {
-        let wrap = StyleWrapper.wrap { label in
-            label.textAlignment = textAlignment ?? .left
-            label.numberOfLines = 0
-            label.lineBreakMode = .byTruncatingMiddle
-            label.font = SFPRO.regular.font(size: 16)
-            label.textColor = color
-        }
-        return wrap
-    }
+//    static func sfHeadlineRegular16(_ color: UIColor, _ textAlignment: NSTextAlignment?) -> StyleWrapper {
+//        let wrap = StyleWrapper.wrap { label in
+//            label.textAlignment = textAlignment ?? .left
+//            label.numberOfLines = 0
+//            label.lineBreakMode = .byTruncatingMiddle
+//            label.font = SFPRO.regular.font(size: 16)
+//            label.textColor = color
+//        }
+//        return wrap
+//    }
     
     // MARK: Body
     
     /// SFPRO 14 | Regular
-    static func sfBodyRegular14(_ color: UIColor, _ textAlignment: NSTextAlignment?) -> StyleWrapper {
-        let wrap = StyleWrapper.wrap { label in
-            label.textAlignment = textAlignment ?? .left
-            label.numberOfLines = 0
-            label.lineBreakMode = .byTruncatingMiddle
-            label.font = SFPRO.regular.font(size: 14)
-            label.textColor = color
-        }
-        return wrap
-    }
+//    static func sfBodyRegular14(_ color: UIColor, _ textAlignment: NSTextAlignment?) -> StyleWrapper {
+//        let wrap = StyleWrapper.wrap { label in
+//            label.textAlignment = textAlignment ?? .left
+//            label.numberOfLines = 0
+//            label.lineBreakMode = .byTruncatingMiddle
+//            label.font = SFPRO.regular.font(size: 14)
+//            label.textColor = color
+//        }
+//        return wrap
+//    }
     
     /// SFPRO 14 | Semibold
-    static func sfBodySemibold14(_ color: UIColor, _ textAlignment: NSTextAlignment?) -> StyleWrapper {
-        let wrap = StyleWrapper.wrap { label in
-            label.textAlignment = textAlignment ?? .left
-            label.numberOfLines = 0
-            label.lineBreakMode = .byTruncatingMiddle
-            label.font = SFPRO.semibold.font(size: 14)
-            label.textColor = color
-        }
-        return wrap
-    }
+//    static func sfBodySemibold14(_ color: UIColor, _ textAlignment: NSTextAlignment?) -> StyleWrapper {
+//        let wrap = StyleWrapper.wrap { label in
+//            label.textAlignment = textAlignment ?? .left
+//            label.numberOfLines = 0
+//            label.lineBreakMode = .byTruncatingMiddle
+//            label.font = SFPRO.semibold.font(size: 14)
+//            label.textColor = color
+//        }
+//        return wrap
+//    }
     
     // MARK: Subheadline
     
     /// SFPRO 18 | Regular
-    static func sfSubheadlineRegular18(_ color: UIColor, _ textAlignment: NSTextAlignment?) -> StyleWrapper {
-        let wrap = StyleWrapper.wrap { label in
-            label.textAlignment = textAlignment ?? .left
-            label.numberOfLines = 0
-            label.lineBreakMode = .byTruncatingMiddle
-            label.font = SFPRO.regular.font(size: 18)
-            label.textColor = color
-        }
-        return wrap
-    }
+//    static func sfSubheadlineRegular18(_ color: UIColor, _ textAlignment: NSTextAlignment?) -> StyleWrapper {
+//        let wrap = StyleWrapper.wrap { label in
+//            label.textAlignment = textAlignment ?? .left
+//            label.numberOfLines = 0
+//            label.lineBreakMode = .byTruncatingMiddle
+//            label.font = SFPRO.regular.font(size: 18)
+//            label.textColor = color
+//        }
+//        return wrap
+//    }
     
     /// SFPRO 16 | Semibold
-    static func sfSubheadlineSemibold16(_ color: UIColor, _ textAlignment: NSTextAlignment?) -> StyleWrapper {
-        let wrap = StyleWrapper.wrap { label in
-            label.textAlignment = textAlignment ?? .left
-            label.numberOfLines = 0
-            label.lineBreakMode = .byTruncatingMiddle
-            label.font = SFPRO.semibold.font(size: 16)
-            label.textColor = color
-        }
-        return wrap
-    }
+//    static func sfSubheadlineSemibold16(_ color: UIColor, _ textAlignment: NSTextAlignment?) -> StyleWrapper {
+//        let wrap = StyleWrapper.wrap { label in
+//            label.textAlignment = textAlignment ?? .left
+//            label.numberOfLines = 0
+//            label.lineBreakMode = .byTruncatingMiddle
+//            label.font = SFPRO.semibold.font(size: 16)
+//            label.textColor = color
+//        }
+//        return wrap
+//    }
     
     // MARK: Caption
     
