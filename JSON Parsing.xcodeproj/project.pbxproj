@@ -80,6 +80,7 @@
 		7961AF3024C75B7F007B20D3 /* ImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7961AF2D24C75B7F007B20D3 /* ImageCell.xib */; };
 		7961AF3224C76796007B20D3 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7961AF3124C76796007B20D3 /* UIImageView.swift */; };
 		7961AF3624C79C6B007B20D3 /* ViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7961AF3524C79C6B007B20D3 /* ViewType.swift */; };
+		7961AF3824C7A695007B20D3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 7961AF3724C7A695007B20D3 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -158,6 +159,7 @@
 		7961AF2D24C75B7F007B20D3 /* ImageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageCell.xib; sourceTree = "<group>"; };
 		7961AF3124C76796007B20D3 /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
 		7961AF3524C79C6B007B20D3 /* ViewType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewType.swift; sourceTree = "<group>"; };
+		7961AF3724C7A695007B20D3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		79B98F8D0BF8C5C6D0A93249 /* Pods-JSON Parsing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSON Parsing.release.xcconfig"; path = "Target Support Files/Pods-JSON Parsing/Pods-JSON Parsing.release.xcconfig"; sourceTree = "<group>"; };
 		EEC4B00DA65B13748E9B33CF /* Pods_JSON_Parsing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JSON_Parsing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3FE1277E4DDE9FF5C39B2C4 /* Pods-JSON Parsing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSON Parsing.debug.xcconfig"; path = "Target Support Files/Pods-JSON Parsing/Pods-JSON Parsing.debug.xcconfig"; sourceTree = "<group>"; };
@@ -214,6 +216,7 @@
 				7958454E24C5D47900D6DD6E /* .swiftlint.yml */,
 				7958455024C5D47900D6DD6E /* .gitignore */,
 				795845D724C5D47A00D6DD6E /* Info.plist */,
+				7961AF3724C7A695007B20D3 /* README.md */,
 			);
 			path = "JSON Parsing";
 			sourceTree = "<group>";
@@ -614,6 +617,7 @@
 				7961AF2A24C75B5D007B20D3 /* SelectorCell.xib in Resources */,
 				7958454F24C5D47900D6DD6E /* .swiftlint.yml in Resources */,
 				7958456624C5D47900D6DD6E /* LaunchScreen.storyboard in Resources */,
+				7961AF3824C7A695007B20D3 /* README.md in Resources */,
 				795845AB24C5D47A00D6DD6E /* DisconnectView.xib in Resources */,
 				7961AF0E24C6F4F2007B20D3 /* MainViewController.xib in Resources */,
 				7958455124C5D47900D6DD6E /* .gitignore in Resources */,
