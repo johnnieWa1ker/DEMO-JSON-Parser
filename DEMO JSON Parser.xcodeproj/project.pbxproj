@@ -84,7 +84,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7958454924C5D47900D6DD6E /* JSON Parsing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JSON Parsing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7958454924C5D47900D6DD6E /* DEMO JSON Parser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DEMO JSON Parser.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7958454C24C5D47900D6DD6E /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7958454E24C5D47900D6DD6E /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; name = .swiftlint.yml; path = ../.swiftlint.yml; sourceTree = "<group>"; };
 		7958455024C5D47900D6DD6E /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; name = .gitignore; path = ../.gitignore; sourceTree = "<group>"; };
@@ -189,7 +189,7 @@
 		7958453F24C5D47900D6DD6E = {
 			isa = PBXGroup;
 			children = (
-				7958454B24C5D47900D6DD6E /* JSON Parsing */,
+				7958454B24C5D47900D6DD6E /* DEMO JSON Parser */,
 				7958454A24C5D47900D6DD6E /* Products */,
 				45C3EB17F6DAB8BAF08C9DD3 /* Pods */,
 				B5729EECB9908EA3757A071F /* Frameworks */,
@@ -199,12 +199,12 @@
 		7958454A24C5D47900D6DD6E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7958454924C5D47900D6DD6E /* JSON Parsing.app */,
+				7958454924C5D47900D6DD6E /* DEMO JSON Parser.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7958454B24C5D47900D6DD6E /* JSON Parsing */ = {
+		7958454B24C5D47900D6DD6E /* DEMO JSON Parser */ = {
 			isa = PBXGroup;
 			children = (
 				7958455224C5D47900D6DD6E /* 👑 Application Layer */,
@@ -218,7 +218,7 @@
 				795845D724C5D47A00D6DD6E /* Info.plist */,
 				7961AF3724C7A695007B20D3 /* README.md */,
 			);
-			path = "JSON Parsing";
+			path = "DEMO JSON Parser";
 			sourceTree = "<group>";
 		};
 		7958455224C5D47900D6DD6E /* 👑 Application Layer */ = {
@@ -552,9 +552,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7958454824C5D47900D6DD6E /* JSON Parsing */ = {
+		7958454824C5D47900D6DD6E /* DEMO JSON Parser */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 795845DA24C5D47A00D6DD6E /* Build configuration list for PBXNativeTarget "JSON Parsing" */;
+			buildConfigurationList = 795845DA24C5D47A00D6DD6E /* Build configuration list for PBXNativeTarget "DEMO JSON Parser" */;
 			buildPhases = (
 				E6487BD6BA3E2D9F373A229A /* [CP] Check Pods Manifest.lock */,
 				7958454424C5D47900D6DD6E /* Sources */,
@@ -567,9 +567,9 @@
 			);
 			dependencies = (
 			);
-			name = "JSON Parsing";
+			name = "DEMO JSON Parser";
 			productName = "JSON Parsing";
-			productReference = 7958454924C5D47900D6DD6E /* JSON Parsing.app */;
+			productReference = 7958454924C5D47900D6DD6E /* DEMO JSON Parser.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -587,7 +587,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7958454324C5D47900D6DD6E /* Build configuration list for PBXProject "JSON Parsing" */;
+			buildConfigurationList = 7958454324C5D47900D6DD6E /* Build configuration list for PBXProject "DEMO JSON Parser" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -601,7 +601,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7958454824C5D47900D6DD6E /* JSON Parsing */,
+				7958454824C5D47900D6DD6E /* DEMO JSON Parser */,
 			);
 		};
 /* End PBXProject section */
@@ -901,7 +901,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 96Q9U9SZGB;
-				INFOPLIST_FILE = "JSON Parsing/Info.plist";
+				INFOPLIST_FILE = "DEMO JSON Parser/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -919,7 +919,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 96Q9U9SZGB;
-				INFOPLIST_FILE = "JSON Parsing/Info.plist";
+				INFOPLIST_FILE = "DEMO JSON Parser/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -933,7 +933,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7958454324C5D47900D6DD6E /* Build configuration list for PBXProject "JSON Parsing" */ = {
+		7958454324C5D47900D6DD6E /* Build configuration list for PBXProject "DEMO JSON Parser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				795845D824C5D47A00D6DD6E /* Debug */,
@@ -942,7 +942,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		795845DA24C5D47A00D6DD6E /* Build configuration list for PBXNativeTarget "JSON Parsing" */ = {
+		795845DA24C5D47A00D6DD6E /* Build configuration list for PBXNativeTarget "DEMO JSON Parser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				795845DB24C5D47A00D6DD6E /* Debug */,
